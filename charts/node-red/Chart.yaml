@@ -1,0 +1,23 @@
+apiVersion: v2
+version: 0.1.0
+name: node-red
+description: Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
+type: application
+appVersion: 3.0.2
+kubeVersion: ">=1.16.0-0"
+icon: https://nodered.org/about/resources/media/node-red-icon.png
+home: https://github.com/lmatfy/charts/tree/master/charts/node-red
+keywords:
+  - node-red
+  - home-assistant
+  - smart-home
+sources:
+  - https://github.com/node-red/node-red
+maintainers:
+  - name: Alexander Bachmann
+    email: a.t.bachmann@gmail.com
+dependencies:
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.5.2
