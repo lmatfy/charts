@@ -39,6 +39,34 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/home-assistant-0.1.0/home-assistant-0.1.0.tgz
     version: 0.1.0
+  node-red:
+  - apiVersion: v2
+    appVersion: 3.0.2
+    created: "2023-08-04T19:52:16.471246657Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Node-RED is a programming tool for wiring together hardware devices,
+      APIs and online services in new and interesting ways.
+    digest: b3eb49e7a5f667d893e051d1a9ae9dd6997094f62dd22fbc9209ea61c3b5c66e
+    home: https://github.com/lmatfy/charts/tree/master/charts/node-red
+    icon: https://nodered.org/about/resources/media/node-red-icon.png
+    keywords:
+    - node-red
+    - home-assistant
+    - smart-home
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: a.t.bachmann@gmail.com
+      name: Alexander Bachmann
+    name: node-red
+    sources:
+    - https://github.com/node-red/node-red
+    type: application
+    urls:
+    - https://github.com/lmatfy/charts/releases/download/node-red-0.1.0/node-red-0.1.0.tgz
+    version: 0.1.0
   zigbee2mqtt:
   - apiVersion: v2
     appVersion: 1.32.2
@@ -66,4 +94,4 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/zigbee2mqtt-0.1.0/zigbee2mqtt-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-04T19:15:01.05659666Z"
+generated: "2023-08-04T19:52:16.471255857Z"
