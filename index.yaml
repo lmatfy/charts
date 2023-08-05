@@ -39,7 +39,63 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/home-assistant-0.1.0/home-assistant-0.1.0.tgz
     version: 0.1.0
+  mosquitto:
+  - apiVersion: v2
+    appVersion: 2.0.15
+    created: "2023-08-05T07:50:26.488114944Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker
+      that implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is
+      lightweight and is suitable for use on all devices from low power single board
+      computers to full servers.
+    digest: 6db9d1a6d755f7548dd5de44ac25899a420c98a840fd3b5e32394c7d7254eca6
+    home: https://github.com/lmatfy/charts/tree/master/charts/mosquitto
+    icon: https://github.com/eclipse/mosquitto/blob/master/logo/mosquitto-logo-min.svg
+    keywords:
+    - mosquitto
+    - mqtt
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: a.t.bachmann@gmail.com
+      name: Alexander Bachmann
+    name: mosquitto
+    sources:
+    - https://github.com/eclipse/mosquitto
+    type: application
+    urls:
+    - https://github.com/lmatfy/charts/releases/download/mosquitto-0.1.0/mosquitto-0.1.0.tgz
+    version: 0.1.0
   node-red:
+  - apiVersion: v2
+    appVersion: 3.0.2
+    created: "2023-08-05T07:50:26.697293842Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Node-RED is a programming tool for wiring together hardware devices,
+      APIs and online services in new and interesting ways.
+    digest: 1312c5ca6cc1a1ce67f44da9791a0e33ceeaa846f9c05fa6e8ad4dce59d61d2a
+    home: https://github.com/lmatfy/charts/tree/master/charts/node-red
+    icon: https://nodered.org/about/resources/media/node-red-icon.png
+    keywords:
+    - node-red
+    - home-assistant
+    - smart-home
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: a.t.bachmann@gmail.com
+      name: Alexander Bachmann
+    name: node-red
+    sources:
+    - https://github.com/node-red/node-red
+    type: application
+    urls:
+    - https://github.com/lmatfy/charts/releases/download/node-red-0.1.1/node-red-0.1.1.tgz
+    version: 0.1.1
   - apiVersion: v2
     appVersion: 3.0.2
     created: "2023-08-04T19:52:16.471246657Z"
@@ -70,6 +126,32 @@ entries:
   zigbee2mqtt:
   - apiVersion: v2
     appVersion: 1.32.2
+    created: "2023-08-05T07:50:26.906772284Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Zigbee to MQTT bridge.
+    digest: 4c548f3871795c3644d9a0b94da198f1390d103a12722ed2fea602f52c971846
+    home: https://github.com/lmatfy/charts/tree/master/charts/zigbee2mqtt
+    icon: https://www.zigbee2mqtt.io/logo.png
+    keywords:
+    - home-assistant
+    - mqtt
+    - zigbee
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: a.t.bachmann@gmail.com
+      name: Alexander Bachmann
+    name: zigbee2mqtt
+    sources:
+    - https://github.com/Koenkk/zigbee2mqtt
+    type: application
+    urls:
+    - https://github.com/lmatfy/charts/releases/download/zigbee2mqtt-0.1.1/zigbee2mqtt-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 1.32.2
     created: "2023-08-04T09:39:23.219405832Z"
     dependencies:
     - name: common
@@ -94,4 +176,4 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/zigbee2mqtt-0.1.0/zigbee2mqtt-0.1.0.tgz
     version: 0.1.0
-generated: "2023-08-04T19:52:16.471255857Z"
+generated: "2023-08-05T07:50:26.906783886Z"
