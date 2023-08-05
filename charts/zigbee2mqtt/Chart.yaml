@@ -1,12 +1,12 @@
 apiVersion: v2
-version: 0.1.0
+version: 0.1.1
 name: zigbee2mqtt
 description: Zigbee to MQTT bridge.
 type: application
 appVersion: 1.32.2
 kubeVersion: ">=1.16.0-0"
 icon: https://www.zigbee2mqtt.io/logo.png
-home: https://github.com/lmatfy/charts/tree/master/charts/incubator/zigbee2mqtt
+home: https://github.com/lmatfy/charts/tree/master/charts/zigbee2mqtt
 keywords:
   - home-assistant
   - mqtt
