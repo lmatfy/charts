@@ -1,0 +1,21 @@
+apiVersion: v2
+version: 0.1.0
+name: mosquitto
+description: Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.
+type: application
+appVersion: 2.0.15
+kubeVersion: ">=1.16.0-0"
+icon: https://github.com/eclipse/mosquitto/blob/master/logo/mosquitto-logo-min.svg
+home: https://github.com/lmatfy/charts/tree/master/charts/mosquitto
+keywords:
+  - mosquitto
+  - mqtt
+sources:
+  - https://github.com/eclipse/mosquitto
+maintainers:
+  - name: Alexander Bachmann
+    email: a.t.bachmann@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.5.2
