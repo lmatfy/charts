@@ -1,9 +1,9 @@
 apiVersion: v2
-version: 0.1.0
+version: 0.1.1
 name: home-assistant
 description: Open source home automation that puts local control and privacy first.
 type: application
-appVersion: 2023.8
+appVersion: "2023.8"
 kubeVersion: ">=1.16.0-0"
 icon: https://home-assistant.io/images/favicon-192x192-full.png
 home: https://github.com/lmatfy/charts/tree/master/charts/home-assistant
@@ -16,7 +16,6 @@ sources:
 maintainers:
   - name: Alexander Bachmann
     email: a.t.bachmann@gmail.com
-dependencies:
 dependencies:
   - name: common
     repository: https://library-charts.k8s-at-home.com
