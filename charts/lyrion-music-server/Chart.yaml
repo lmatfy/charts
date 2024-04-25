@@ -1,9 +1,9 @@
 apiVersion: v2
-version: 0.1.0
+version: 0.1.1
 name: lyrion-music-server
 description: Streaming audio server.
 type: application
-appVersion: "8.5.2"
+appVersion: "9.0.0"
 kubeVersion: ">=1.16.0-0"
 icon: https://lyrion.org/assets/logo.png
 home: https://github.com/lmatfy/charts/tree/master/charts/lyrion-music-server

@@ -29,7 +29,6 @@ service:
   cli:
     ports:
       cli:
-        enabled: true
         port: 9090
     playertcp:
       ports:
