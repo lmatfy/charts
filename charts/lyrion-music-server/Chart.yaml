@@ -1,0 +1,26 @@
+apiVersion: v2
+version: 0.1.0
+name: lyrion-music-server
+description: Streaming audio server.
+type: application
+appVersion: "8.5.2"
+kubeVersion: ">=1.16.0-0"
+icon: https://lyrion.org/assets/logo.png
+home: https://github.com/lmatfy/charts/tree/master/charts/lyrion-music-server
+keywords:
+  - lms
+  - logitech-media-server
+  - lyrion-music-server
+  - audio
+  - multiroom-audio
+  - slimserver
+  - squeezebox
+sources:
+  - https://github.com/LMS-Community/slimserver
+maintainers:
+  - name: Alexander Bachmann
+    email: a.t.bachmann@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.5.2
