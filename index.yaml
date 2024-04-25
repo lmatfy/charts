@@ -345,6 +345,36 @@ entries:
     version: 0.1.0
   lyrion-music-server:
   - apiVersion: v2
+    appVersion: 8.5.2
+    created: "2024-04-25T16:50:50.602852157Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Streaming audio server.
+    digest: bf4c03c1ecca9ee32b05c63807845bf851c59bfd5db1c824632355e04fcc35dc
+    home: https://github.com/lmatfy/charts/tree/master/charts/lyrion-music-server
+    icon: https://lyrion.org/assets/logo.png
+    keywords:
+    - lms
+    - logitech-media-server
+    - lyrion-music-server
+    - audio
+    - multiroom-audio
+    - slimserver
+    - squeezebox
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: a.t.bachmann@gmail.com
+      name: Alexander Bachmann
+    name: lyrion-music-server
+    sources:
+    - https://github.com/LMS-Community/slimserver
+    type: application
+    urls:
+    - https://github.com/lmatfy/charts/releases/download/lyrion-music-server-0.1.2/lyrion-music-server-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 9.0.0
     created: "2024-04-25T16:40:58.253725841Z"
     dependencies:
@@ -674,4 +704,4 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/zigbee2mqtt-0.1.0/zigbee2mqtt-0.1.0.tgz
     version: 0.1.0
-generated: "2024-04-25T16:40:58.253773059Z"
+generated: "2024-04-25T16:50:50.602909804Z"
