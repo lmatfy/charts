@@ -14,10 +14,10 @@ spec:
   groups:
     - name: {{ include "common.names.fullname" . }}
       rules:
-        - alert: LyrionAbsent
+        - alert: MusicAssistantServerAbsent
           annotations:
-            description: Lyrion has disappeared from Prometheus service discovery.
-            summary: Lyrion is down.
+            description: Music assistant server has disappeared from Prometheus service discovery.
+            summary: Music assistant server is down.
           expr: |
             absent(up{job=~".*{{ include "common.names.fullname" . }}.*"} == 1)
           for: 5m

@@ -1,0 +1,25 @@
+apiVersion: v2
+version: 0.1.0
+name: music-assistant-server
+description: Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers.
+type: application
+appVersion: "2.0.0b141"
+kubeVersion: ">=1.16.0-0"
+icon: https://music-assistant.io/assets/transparent-logo.png
+home: https://github.com/lmatfy/charts/tree/master/charts/music-assistant-server
+keywords:
+  - music-assistant
+  - music-assistant-server
+  - audio
+  - multiroom-audio
+  - home-automation
+  - smart-home
+sources:
+  - https://github.com/music-assistant/server
+maintainers:
+  - name: Alexander Bachmann
+    email: a.t.bachmann@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.5.2
