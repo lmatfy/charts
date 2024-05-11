@@ -1,9 +1,9 @@
 apiVersion: v2
-version: 0.1.8
+version: 0.1.9
 name: home-assistant
 description: Open source home automation that puts local control and privacy first.
 type: application
-appVersion: "2024.4"
+appVersion: "2024.5"
 kubeVersion: ">=1.16.0-0"
 icon: https://home-assistant.io/images/favicon-192x192-full.png
 home: https://github.com/lmatfy/charts/tree/master/charts/home-assistant
