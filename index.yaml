@@ -569,6 +569,36 @@ entries:
     version: 0.1.0
   music-assistant-server:
   - apiVersion: v2
+    appVersion: 2.0.6
+    created: "2024-06-15T11:36:06.298414363Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Music Assistant is a free, opensource Media library manager that
+      connects to your streaming services and a wide range of connected speakers.
+    digest: 7cede130889b7b4dbaaba6080f46e78ef4b57d2ba8f228a1453dcc9c459eda65
+    home: https://github.com/lmatfy/charts/tree/master/charts/music-assistant-server
+    icon: https://music-assistant.io/assets/transparent-logo.png
+    keywords:
+    - music-assistant
+    - music-assistant-server
+    - audio
+    - multiroom-audio
+    - home-automation
+    - smart-home
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: a.t.bachmann@gmail.com
+      name: Alexander Bachmann
+    name: music-assistant-server
+    sources:
+    - https://github.com/music-assistant/server
+    type: application
+    urls:
+    - https://github.com/lmatfy/charts/releases/download/music-assistant-server-0.1.2/music-assistant-server-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 2.0.1
     created: "2024-05-11T07:49:04.744291923Z"
     dependencies:
@@ -841,4 +871,4 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/zigbee2mqtt-0.1.0/zigbee2mqtt-0.1.0.tgz
     version: 0.1.0
-generated: "2024-06-15T11:33:48.035006859Z"
+generated: "2024-06-15T11:36:06.298490404Z"
