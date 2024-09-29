@@ -1,0 +1,22 @@
+apiVersion: v2
+version: 0.1.0
+name: shairport-sync
+description: Shairport Sync is an AirPlay audio player for Linux, FreeBSD and OpenBSD. It plays audio streamed from Apple devices and from AirPlay sources such as OwnTone.
+type: application
+appVersion: "4.3.4"
+kubeVersion: ">=1.16.0-0"
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/AirPlay_Audio_logo.svg/512px-AirPlay_Audio_logo.svg.png
+home: https://github.com/lmatfy/charts/tree/master/charts/shairport-sync
+keywords:
+- shairport-sync
+- airplay-1
+- airplay-2
+sources:
+- https://github.com/mikebrady/shairport-sync
+maintainers:
+- name: Alexander Bachmann
+  email: a.t.bachmann@gmail.com
+dependencies:
+- name: common
+  repository: https://library-charts.k8s-at-home.com
+  version: 4.5.2
