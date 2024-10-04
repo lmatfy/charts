@@ -28,9 +28,16 @@ persistence:
     type: hostPath
     hostPath: /dev/snd
     readOnly: true
+
 securityContext:
   # -- (bool) Privileged securityContext is required to access /dev/snd directly on the host machine
-  privileged: # true
+  privileged: true
+
+service:
+  main:
+    ports:
+      http:
+        port: 7000
 
 # -- Affinity constraint rules to place the Pod on a specific node.
 # [[ref]](https://kubernetes.io/docs/concepts/scheduling-eviction/assign-pod-node/#affinity-and-anti-affinity)

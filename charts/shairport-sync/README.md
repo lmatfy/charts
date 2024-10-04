@@ -1,4 +1,4 @@
-# shairport (unofficial)
+# shairport-sync (unofficial)
 
 Unofficial helm chart for [shairport](https://github.com/mikebrady/shairport-sync).
 
