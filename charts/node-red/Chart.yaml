@@ -1,9 +1,9 @@
 apiVersion: v2
-version: 0.1.2
+version: 0.1.3
 name: node-red
 description: Node-RED is a programming tool for wiring together hardware devices, APIs and online services in new and interesting ways.
 type: application
-appVersion: 3.1.0
+appVersion: 4.0.3-minimal
 kubeVersion: ">=1.16.0-0"
 icon: https://nodered.org/about/resources/media/node-red-icon.png
 home: https://github.com/lmatfy/charts/tree/master/charts/node-red
