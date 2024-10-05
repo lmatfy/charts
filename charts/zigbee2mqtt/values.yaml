@@ -20,6 +20,20 @@ env:
   # -- Set the data folder for Zigbee2MQTT.
   ZIGBEE2MQTT_DATA: /data
 
+initContainers:
+  copy-config:
+    image: busybox
+    command:
+    - sh
+    - -c
+    - cp /app/configuration.yaml /data/configuration.yaml
+    volumeMounts:
+    - mountPath: /data
+      name: data
+    - mountPath: /app/configuration.yaml
+      name: zigbee2mqtt-settings
+      subPath: configuration.yaml
+
 # -- Configures service settings for the chart. Normally this does not need to be modified.
 # @default -- See values.yaml
 service:
