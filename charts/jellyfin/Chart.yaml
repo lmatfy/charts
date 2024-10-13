@@ -1,0 +1,26 @@
+apiVersion: v2
+appVersion: 10.9
+description: Jellyfin is a Free Software Media System
+name: jellyfin
+version: 0.1.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - jellyfin
+  - plex
+  - emby
+home: https://github.com/lmatfy/charts/tree/master/charts/jellyfin
+icon: https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-solid-black.svg
+sources:
+  - https://hub.docker.com/r/jellyfin/jellyfin
+  - https://github.com/jellyfin/jellyfin
+maintainers:
+  - name: Alexander Bachmann
+    email: a.t.bachmann@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.5.2
+annotations:
+  artifacthub.io/changes: |-
+    - kind: changed
+      description: Upgraded `common` chart dependency to version 4.5.2
