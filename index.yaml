@@ -609,6 +609,37 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/home-assistant-0.1.0/home-assistant-0.1.0.tgz
     version: 0.1.0
+  jellyfin:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: "10.9"
+    created: "2024-10-13T07:56:09.514160947Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Jellyfin is a Free Software Media System
+    digest: 074a072c88403c6ccd84dc82f56bad58192beb6c43260527836f4d31c238fb9a
+    home: https://github.com/lmatfy/charts/tree/master/charts/jellyfin
+    icon: https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-solid-black.svg
+    keywords:
+    - jellyfin
+    - plex
+    - emby
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: a.t.bachmann@gmail.com
+      name: Alexander Bachmann
+    name: jellyfin
+    sources:
+    - https://hub.docker.com/r/jellyfin/jellyfin
+    - https://github.com/jellyfin/jellyfin
+    urls:
+    - https://github.com/lmatfy/charts/releases/download/jellyfin-0.1.0/jellyfin-0.1.0.tgz
+    version: 0.1.0
   lyrion-music-server:
   - apiVersion: v2
     appVersion: 8.5.2
@@ -1283,4 +1314,4 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/zigbee2mqtt-0.1.0/zigbee2mqtt-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-05T16:55:25.295600668Z"
+generated: "2024-10-13T07:56:09.514254983Z"
