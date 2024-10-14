@@ -636,6 +636,32 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/homer-8.0.2/homer-8.0.2.tgz
     version: 8.0.2
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: v24.05.1
+    created: "2024-10-14T20:17:36.556600782Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: A dead simple static HOMepage for your servER to keep your services
+      on hand, from a simple yaml configuration file.
+    digest: e455f203083b0ceab42e904893f3d9934933645a032aaaed83ec432c405446b5
+    home: https://github.com/lmatfy/charts/tree/master/charts/homer
+    icon: https://raw.githubusercontent.com/bastienwirtz/homer/main/public/logo.png
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: a.t.bachmann@gmail.com
+      name: Alexander Bachmann
+    name: homer
+    sources:
+    - https://github.com/bastienwirtz/homer
+    urls:
+    - https://github.com/lmatfy/charts/releases/download/homer-0.1.1/homer-0.1.1.tgz
+    version: 0.1.1
   jellyfin:
   - annotations:
       artifacthub.io/changes: |-
@@ -1341,4 +1367,4 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/zigbee2mqtt-0.1.0/zigbee2mqtt-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-14T20:17:05.157531602Z"
+generated: "2024-10-14T20:17:36.55668553Z"
