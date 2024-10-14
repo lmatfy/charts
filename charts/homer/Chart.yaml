@@ -1,0 +1,21 @@
+apiVersion: v2
+appVersion: v24.05.1
+description: A dead simple static HOMepage for your servER to keep your services on hand, from a simple yaml configuration file.
+icon: https://raw.githubusercontent.com/bastienwirtz/homer/main/public/logo.png
+home: https://github.com/lmatfy/charts/tree/master/charts/homer
+name: homer
+version: 0.1.1
+kubeVersion: ">=1.16.0-0"
+sources:
+  - https://github.com/bastienwirtz/homer
+maintainers:
+  - name: Alexander Bachmann
+    email: a.t.bachmann@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.5.2
+annotations:
+  artifacthub.io/changes: |-
+    - kind: changed
+      description: Upgraded `common` chart dependency to version 4.5.2
