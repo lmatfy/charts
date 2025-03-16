@@ -1,9 +1,9 @@
 apiVersion: v2
-version: 0.1.7
+version: 0.1.8
 name: zigbee2mqtt
 description: Zigbee to MQTT bridge.
 type: application
-appVersion: 1.40.2
+appVersion: 2.1.3
 kubeVersion: ">=1.16.0-0"
 icon: https://www.zigbee2mqtt.io/logo.png
 home: https://github.com/lmatfy/charts/tree/master/charts/zigbee2mqtt
