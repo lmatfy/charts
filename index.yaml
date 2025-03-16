@@ -846,6 +846,36 @@ entries:
         - kind: changed
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
+    appVersion: "10.1"
+    created: "2025-03-16T06:07:55.967593634Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Jellyfin is a Free Software Media System
+    digest: 8293a79627d102eb71c574f50b2e0c75de7ab97e856a9b3ae69ab16d94713d5a
+    home: https://github.com/lmatfy/charts/tree/master/charts/jellyfin
+    icon: https://raw.githubusercontent.com/jellyfin/jellyfin-ux/master/branding/SVG/icon-solid-black.svg
+    keywords:
+    - jellyfin
+    - plex
+    - emby
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: a.t.bachmann@gmail.com
+      name: Alexander Bachmann
+    name: jellyfin
+    sources:
+    - https://hub.docker.com/r/jellyfin/jellyfin
+    - https://github.com/jellyfin/jellyfin
+    urls:
+    - https://github.com/lmatfy/charts/releases/download/jellyfin-0.1.1/jellyfin-0.1.1.tgz
+    version: 0.1.1
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
     appVersion: "10.9"
     created: "2024-10-13T07:56:09.514160947Z"
     dependencies:
@@ -1575,4 +1605,4 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/zigbee2mqtt-0.1.0/zigbee2mqtt-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-16T06:04:59.762510074Z"
+generated: "2025-03-16T06:07:55.967699792Z"
