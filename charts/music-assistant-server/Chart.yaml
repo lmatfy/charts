@@ -1,9 +1,9 @@
 apiVersion: v2
-version: 0.1.7
+version: 0.1.8
 name: music-assistant-server
 description: Music Assistant is a free, opensource Media library manager that connects to your streaming services and a wide range of connected speakers.
 type: application
-appVersion: "2.5.8"
+appVersion: "2.6.3"
 kubeVersion: ">=1.16.0-0"
 icon: https://music-assistant.io/assets/transparent-logo.png
 home: https://github.com/lmatfy/charts/tree/master/charts/music-assistant-server
