@@ -2,6 +2,44 @@ apiVersion: v1
 entries:
   home-assistant:
   - apiVersion: v2
+    appVersion: "2025.9"
+    created: "2026-01-26T21:43:06.302398346Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.0.1
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 19.0.7
+    - condition: influxdb.enabled
+      name: influxdb
+      repository: https://charts.bitnami.com/bitnami
+      version: 6.3.21
+    description: Open source home automation that puts local control and privacy first.
+    digest: 0aeadf7c236900eee06054c87c7c1a25851d4915ea9a03546ba5429599508422
+    home: https://github.com/lmatfy/charts/tree/master/charts/home-assistant
+    icon: https://home-assistant.io/images/favicon-192x192-full.png
+    keywords:
+    - home-assistant
+    - home-automation
+    - smart-home
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: a.t.bachmann@gmail.com
+      name: Alexander Bachmann
+    name: home-assistant
+    sources:
+    - https://github.com/home-assistant/core
+    type: application
+    urls:
+    - https://github.com/lmatfy/charts/releases/download/home-assistant-0.1.28/home-assistant-0.1.28.tgz
+    version: 0.1.28
+  - apiVersion: v2
     appVersion: "2025.7"
     created: "2025-07-15T15:12:29.048880946Z"
     dependencies:
@@ -1890,4 +1928,4 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/zigbee2mqtt-0.1.0/zigbee2mqtt-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-26T18:39:32.827340315Z"
+generated: "2026-01-26T21:43:06.302584887Z"
