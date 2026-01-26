@@ -1743,6 +1743,32 @@ entries:
     version: 0.1.0
   zigbee2mqtt:
   - apiVersion: v2
+    appVersion: 2.7.2
+    created: "2026-01-26T21:56:39.593290046Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Zigbee to MQTT bridge.
+    digest: 00a60d386784bf715e321e993a60872a24a32b14687a3d606e15115490723681
+    home: https://github.com/lmatfy/charts/tree/master/charts/zigbee2mqtt
+    icon: https://www.zigbee2mqtt.io/logo.png
+    keywords:
+    - home-assistant
+    - mqtt
+    - zigbee
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: a.t.bachmann@gmail.com
+      name: Alexander Bachmann
+    name: zigbee2mqtt
+    sources:
+    - https://github.com/Koenkk/zigbee2mqtt
+    type: application
+    urls:
+    - https://github.com/lmatfy/charts/releases/download/zigbee2mqtt-0.1.14/zigbee2mqtt-0.1.14.tgz
+    version: 0.1.14
+  - apiVersion: v2
     appVersion: 2.6.3
     created: "2026-01-26T21:55:08.942791586Z"
     dependencies:
@@ -2106,4 +2132,4 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/zigbee2mqtt-0.1.0/zigbee2mqtt-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-26T21:55:08.942982473Z"
+generated: "2026-01-26T21:56:39.593738423Z"
