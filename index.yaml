@@ -1686,6 +1686,34 @@ entries:
     version: 0.1.0
   shairport-sync:
   - apiVersion: v2
+    appVersion: 4.3.7
+    created: "2026-01-26T21:58:04.672357769Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Shairport Sync is an AirPlay audio player for Linux, FreeBSD and
+      OpenBSD. It plays audio streamed from Apple devices and from AirPlay sources
+      such as OwnTone.
+    digest: 75b864e298e7c4dfcee9f66e33af84e7605a00ffa79d1e6aaad4d722c1d89ae1
+    home: https://github.com/lmatfy/charts/tree/master/charts/shairport-sync
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/AirPlay_Audio_logo.svg/512px-AirPlay_Audio_logo.svg.png
+    keywords:
+    - shairport-sync
+    - airplay-1
+    - airplay-2
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: a.t.bachmann@gmail.com
+      name: Alexander Bachmann
+    name: shairport-sync
+    sources:
+    - https://github.com/mikebrady/shairport-sync
+    type: application
+    urls:
+    - https://github.com/lmatfy/charts/releases/download/shairport-sync-0.1.2/shairport-sync-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
     appVersion: 4.3.4
     created: "2024-10-04T21:47:11.796910262Z"
     dependencies:
@@ -2132,4 +2160,4 @@ entries:
     urls:
     - https://github.com/lmatfy/charts/releases/download/zigbee2mqtt-0.1.0/zigbee2mqtt-0.1.0.tgz
     version: 0.1.0
-generated: "2026-01-26T21:56:39.593738423Z"
+generated: "2026-01-26T21:58:04.67252523Z"
